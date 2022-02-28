@@ -1,0 +1,265 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.body{
+    font-family:'Alegreya', serif}
+
+.home{
+    overflow: auto;
+    width: 100%;
+    height:100vh;
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+.home .topnav {
+    width: 100%;
+    position: fixed;
+    top:0px;
+    right:0px;
+    color: white;
+    overflow: hidden;
+
+  }
+.home .topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .home .topnav a:hover {
+    background-color: #ddd;
+    color: black;}
+ .home .topnav a.active {
+        color: white;
+      }
+clr{
+    clear: both;
+}
+.welcome{
+    margin: 100px;
+    padding:60px;
+    text-align: center;
+    color: aliceblue;
+}
+.welcome p{
+    padding: 5px;
+    font-size:large;
+    font-weight: 200;
+}
+.welcome h1{
+    padding:20px;
+    font-weight: 900;
+    font-size: 98px;
+}
+.home .btn{
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+} 
+.home .one{
+    background-color:#8e7754;
+}
+.home .two{ 
+    border: solid 2px white;
+    margin-left: 3px;
+}
+
+.cntnt{
+    width: 100%;
+    margin-top: 20px;
+    padding: 40px;
+}
+.container{
+    width: 90%;
+    margin:auto;
+}
+.cntnt .cnt1{
+    width: 50%;
+    float: left;
+}
+.cntnt .cnt1 img {
+    width: 90%;
+}
+
+.cntnt .cnt2{
+    width:50%;
+    padding-top: 60px;
+    text-align: left;
+    float: right;
+}
+
+.clr3{
+    clear: both;
+}
+.cntn2{
+    background-color:#f8f8f8;
+    width: 100%;
+    margin-top: 20px;
+    padding: 30px;
+}
+.container2{
+    width:90%;
+    margin: auto;
+
+}
+.location{
+    padding-top: 60px;
+    width: 50%;
+    float: left;
+}
+.location h2{
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-family: 'Alegreya', serif;;
+
+}
+.location p {
+    padding: 10px 0px;
+    font-family: 'Alegreya', serif;
+}
+.location-image{
+    width: 50%;
+    float: left;
+}
+.location-image img{
+    width: 100%;
+}
+.cl2{
+    clear: both;
+}
+.baking{
+    width: 90%;
+    margin: auto;
+    padding: 60px 10px;
+    text-align: center;
+    
+}
+
+.baking-item{
+
+    width: 33.3%;
+    margin: auto;
+    text-align: center;
+    float: left;
+}
+.baking-item img{
+    width: 90%;
+
+}
+.baking-item h3{
+    padding-top: 10px;
+}
+.baking-item p, .baking p{
+    padding: 20px 20px;
+    font-size: 17px;
+    color: #888;
+}
+.cl1{
+    clear: left;
+}
+.prt5{
+    width: 100%;
+    background-color: #f8f8f8;
+    margin-top: 30px;
+
+}
+.container3{
+    width: 90%;
+    margin: auto;
+}
+.info{
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    float: left;
+}
+.info h2,p,h4{
+    font-family: 'Alegreya', serif;
+}
+.info h2{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: xx-large;
+
+}
+.info p{
+    padding: 10px 0;
+}
+
+.info h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.frame{
+    width: 50%;
+    padding: top 30px;
+    float: left;
+}
+.cl3{
+    clear: both;
+}
+.about{
+    width: 100%;
+    background-color:#403d38;
+    text-align: center;
+    
+}
+.container4{
+    width:80%;
+    margin: auto;
+}
+
+.container4 .information{
+    padding: 30px;
+    float: left;
+}
+.information h3,p{
+    font-family: 'Alegreya', serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.information h3{
+    color: white;
+}
+.information p{
+    color: #969696;
+}
+.mp{
+    background-image: url("../images/contact-details-map.png");
+    background-repeat: no-repeat;
+}
+.clear4{
+    clear: both;
+}
+.bottom{
+    width: 100%;
+    text-align: center;
+    background-color: #1b1b1b;
+    padding-bottom: 60px;
+}
+.bottom img{
+    padding-top:60px;
+}
+.bottom p,button{
+    color: #777;
+}
+.bottom button{
+    width: 30px;
+        text-align: center;
+        border-radius: 50%;
+}
+
+@media screen and (max-width:576px)
+{
+body,.home, .topnav,.welcome,.cnt1, .cnt2,.location,.location-image,.info, .frame, .baking-item{
+    width: 100%;
+}
+}
